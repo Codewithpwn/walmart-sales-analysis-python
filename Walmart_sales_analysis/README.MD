@@ -202,22 +202,20 @@ s
 
 ## 📁 Project Structure
 
-```text
-Walmart-Sales-Analysis/
+Walmart_sales_analysis/
 │
-├── Walmart_Sales.csv
+├── images/
+│   ├── correlation_heatmap.png
+│   ├── fuel_price_vs_sales.png
+│   ├── temperature_vs_sales.png
+│   ├── unemployment_vs_sales.png
+│   └── yearly_sales_analysis.png
+│
 ├── Walmart_Sales_Analysis.ipynb
+├── Walmart_Sales.csv
 ├── README.md
 ├── requirements.txt
-│
-└── images/
-    ├── store_sales.png
-    ├── monthly_sales.png
-    ├── holiday_sales.png
-    └── heatmap.png
-```
-
----
+└── .gitignore
 
 ## 🚀 How to Run the Project
 
