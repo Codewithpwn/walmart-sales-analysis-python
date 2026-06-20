@@ -163,35 +163,17 @@ s
 ---
 
 ### 8. Correlation Analysis
+## Correlation Analysis
 
-Generated correlation matrix and heatmap.
+![Correlation Heatmap](images/correlation_heatmap.png)
 
-**Variables Analyzed:**
+## Temperature vs Weekly Sales
 
-- Weekly Sales
-- Temperature
-- Fuel Price
-- CPI
-- Unemployment
+![Temperature Analysis](images/temperature_vs_sales.png)
 
-**Visualization:**
+## Fuel Price vs Weekly Sales
 
-```python
-correlation = df[
-    [
-        "Weekly_Sales",
-        "Temperature",
-        "Fuel_Price",
-        "CPI",
-        "Unemployment"
-    ]
-].corr()
-
-sns.heatmap(
-    correlation,
-    annot=True,
-    cmap="coolwarm"
-)
+![Fuel Analysis](images/fuel_price_vs_sales.png)
 ```
 
 ---
